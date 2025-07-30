@@ -1,0 +1,137 @@
+$date
+	Thu Jul 31 01:00:28 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_eqcheck $end
+$var wire 1 ! o $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$scope module uut $end
+$var wire 4 $ A [3:0] $end
+$var wire 4 % B [3:0] $end
+$var wire 1 ! o $end
+$var wire 1 & c3 $end
+$var wire 1 ' c2 $end
+$var wire 1 ( c1 $end
+$var wire 1 ) c0 $end
+$scope module b1 $end
+$var wire 1 * A $end
+$var wire 1 + B $end
+$var wire 1 , o1 $end
+$var wire 1 ) o2 $end
+$var wire 1 - o3 $end
+$upscope $end
+$scope module b2 $end
+$var wire 1 . A $end
+$var wire 1 / B $end
+$var wire 1 0 o1 $end
+$var wire 1 ( o2 $end
+$var wire 1 1 o3 $end
+$upscope $end
+$scope module b3 $end
+$var wire 1 2 A $end
+$var wire 1 3 B $end
+$var wire 1 4 o1 $end
+$var wire 1 ' o2 $end
+$var wire 1 5 o3 $end
+$upscope $end
+$scope module b4 $end
+$var wire 1 6 A $end
+$var wire 1 7 B $end
+$var wire 1 8 o1 $end
+$var wire 1 & o2 $end
+$var wire 1 9 o3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+1)
+1(
+1'
+1&
+b0 %
+b0 $
+b0 #
+b0 "
+1!
+$end
+#10
+00
+08
+1/
+17
+1.
+16
+b1010 #
+b1010 %
+b1010 "
+b1010 $
+#20
+0!
+0)
+1,
+04
+13
+1*
+12
+b1110 #
+b1110 %
+b1111 "
+b1111 $
+#30
+1!
+0,
+1)
+1+
+03
+07
+02
+06
+b11 #
+b11 %
+b11 "
+b11 $
+#40
+0!
+0'
+0&
+0)
+1-
+14
+18
+0/
+0*
+0.
+12
+16
+b1 #
+b1 %
+b1100 "
+b1100 $
+#50
